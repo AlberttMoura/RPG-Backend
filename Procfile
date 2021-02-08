@@ -1,0 +1,1 @@
+web: gunicorn rpg_backend.wsgi
