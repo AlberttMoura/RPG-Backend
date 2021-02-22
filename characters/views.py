@@ -5,4 +5,5 @@ from .serializers import NPCSerializer
 class NPCViewSet(viewsets.ModelViewSet):
     queryset = NPC.objects.all()
     serializer_class = NPCSerializer
+    
 
